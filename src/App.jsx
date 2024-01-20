@@ -1,6 +1,7 @@
 import Header from "./Components/Header";
 import Card from "./Components/Cards";
 import Counter from "./Components/Counter";
+import ColorPicker from "./Components/ColorPicker";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Counter />
 
       <Header ProjectName="Project 3 : Color Picker" />
+      <ColorPicker />
+
+      <Header ProjectName="Project 4 : Stopwatch" />
     </>
   );
 }

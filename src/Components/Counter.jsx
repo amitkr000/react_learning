@@ -1,5 +1,5 @@
 import styles from "./Counter.module.css";
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Counter() {
   // Using useState to change the virtual DOM
