@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import Card from "./Components/Cards";
 import Counter from "./Components/Counter";
 import ColorPicker from "./Components/ColorPicker";
+import ToDo from "./Components/ToDo";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <Header ProjectName="Project 3 : Color Picker" />
       <ColorPicker />
 
-      <Header ProjectName="Project 4 : Stopwatch" />
+      <Header ProjectName="Project 4 : To Do" />
+      <ToDo />
     </>
   );
 }
