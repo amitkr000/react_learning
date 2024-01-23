@@ -4,7 +4,7 @@ import Counter from "./Components/Counter";
 import ColorPicker from "./Components/ColorPicker";
 import ToDo from "./Components/ToDo";
 import DigitalClock from "./Components/DigitalClock";
-
+import StopWatch from "./Components/StopWatch";
 function App() {
   return (
     <>
@@ -27,6 +27,7 @@ function App() {
       <DigitalClock />
 
       <Header ProjectName="Project 6 : StopWatch" />
+      <StopWatch />
     </>
   );
 }
