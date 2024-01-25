@@ -1,4 +1,4 @@
-import asteriod_img from "E:/GithubProject/react_learning/src/assets/Asteroid_Transparent.png";
+import asteriod_img from "../assets/Asteroid_Transparent.png";
 import styles from "./Cards.module.css";
 
 function Card() {
